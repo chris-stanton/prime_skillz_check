@@ -30,6 +30,7 @@ var total = 0;
 //for loop will run 6 times *incrumenting total by adding the index value everytime
 for (var i = 0; i < numbers.length; i++) {
   total += numbers[i];
+  return total;
 }
 //console logging variable total
 console.log(total);
